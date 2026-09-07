@@ -1,0 +1,2001 @@
+tag_id,product_id,customer_id,team,environment,service,tag_status
+TAG-000001,PROD_OTT,CUST_102,Media-Core,Production,Compute,Valid_Recovered
+TAG-000002,PROD_VOD,CUST_102,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000003,PROD_VOD,CUST_102,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000004,PROD_LIVE,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000005,PROD_ENCODE,CUST_105,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000006,PROD_VOD,CUST_101,Media-Core,Production,Storage,Valid_Recovered
+TAG-000007,PROD_LIVE,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000008,PROD_OTT,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000009,PROD_ENCODE,CUST_104,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000010,PROD_OTT,CUST_104,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000011,PROD_OTT,CUST_104,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000012,PROD_OTT,CUST_105,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000013,PROD_VOD,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000014,PROD_ENCODE,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-000015,PROD_OTT,CUST_105,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000016,PROD_LIVE,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000017,PROD_OTT,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000018,PROD_ENCODE,CUST_106,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000019,PROD_OTT,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-000020,PROD_OTT,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000021,PROD_OTT,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000022,PROD_VOD,CUST_106,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000023,PROD_ENCODE,CUST_105,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000024,PROD_VOD,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000025,PROD_LIVE,CUST_106,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000026,PROD_VOD,CUST_102,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000027,PROD_LIVE,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000028,PROD_OTT,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-000029,PROD_LIVE,CUST_106,Media-Core,Production,Storage,Valid_Recovered
+TAG-000030,PROD_LIVE,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000031,PROD_VOD,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-000032,PROD_OTT,CUST_101,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000033,PROD_OTT,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000034,PROD_VOD,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000035,UNALLOCATED_RECOVERY,CUST_103,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000036,PROD_LIVE,CUST_102,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000037,PROD_ENCODE,CUST_105,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000038,PROD_ENCODE,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000039,PROD_VOD,CUST_102,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000040,PROD_VOD,CUST_106,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000041,PROD_VOD,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000042,PROD_VOD,CUST_102,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000043,PROD_ENCODE,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000044,PROD_LIVE,CUST_102,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000045,PROD_VOD,CUST_105,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000046,PROD_LIVE,CUST_102,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000047,PROD_LIVE,CUST_101,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000048,PROD_ENCODE,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000049,PROD_OTT,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-000050,PROD_VOD,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000051,PROD_VOD,CUST_105,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000052,PROD_OTT,CUST_101,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000053,PROD_LIVE,CUST_102,Media-Core,Production,Storage,Valid_Recovered
+TAG-000054,PROD_OTT,CUST_105,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000055,PROD_ENCODE,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000056,PROD_OTT,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000057,PROD_LIVE,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000058,PROD_VOD,CUST_104,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000059,PROD_VOD,CUST_102,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000060,PROD_VOD,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000061,PROD_ENCODE,CUST_102,Media-Core,Development,Storage,Valid_Recovered
+TAG-000062,PROD_ENCODE,CUST_101,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000063,PROD_OTT,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000064,PROD_LIVE,CUST_106,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000065,PROD_ENCODE,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-000066,PROD_OTT,CUST_105,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000067,PROD_ENCODE,CUST_101,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000068,PROD_ENCODE,CUST_102,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000069,PROD_OTT,CUST_102,Media-Core,Development,Storage,Valid_Recovered
+TAG-000070,UNALLOCATED_RECOVERY,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000071,PROD_LIVE,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000072,PROD_VOD,CUST_105,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000073,PROD_OTT,CUST_105,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000074,PROD_OTT,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000075,PROD_VOD,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-000076,PROD_LIVE,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000077,PROD_ENCODE,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000078,PROD_ENCODE,CUST_105,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000079,PROD_VOD,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000080,PROD_OTT,CUST_104,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000081,PROD_ENCODE,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000082,PROD_OTT,CUST_101,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000083,PROD_VOD,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-000084,PROD_VOD,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000085,PROD_ENCODE,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000086,PROD_OTT,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000087,PROD_VOD,CUST_101,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000088,PROD_OTT,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000089,PROD_OTT,CUST_106,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000090,PROD_VOD,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000091,PROD_OTT,CUST_104,Media-Core,Production,Storage,Valid_Recovered
+TAG-000092,PROD_VOD,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000093,PROD_VOD,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000094,PROD_OTT,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000095,PROD_ENCODE,CUST_105,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000096,PROD_OTT,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000097,PROD_OTT,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000098,PROD_OTT,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000099,PROD_OTT,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000100,PROD_VOD,CUST_102,Media-Core,Production,Compute,Valid_Recovered
+TAG-000101,PROD_ENCODE,CUST_106,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000102,PROD_LIVE,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000103,PROD_LIVE,CUST_106,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000104,PROD_LIVE,CUST_104,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000105,UNALLOCATED_RECOVERY,CUST_105,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000106,PROD_LIVE,CUST_103,Media-Core,Production,Storage,Valid_Recovered
+TAG-000107,PROD_OTT,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-000108,PROD_ENCODE,CUST_106,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000109,PROD_OTT,CUST_105,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000110,PROD_ENCODE,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000111,PROD_ENCODE,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000112,PROD_OTT,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-000113,PROD_OTT,CUST_103,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000114,PROD_OTT,CUST_103,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000115,PROD_ENCODE,CUST_106,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000116,PROD_ENCODE,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000117,PROD_VOD,CUST_104,Media-Core,Development,Compute,Valid_Recovered
+TAG-000118,PROD_OTT,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000119,PROD_OTT,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000120,PROD_VOD,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000121,PROD_ENCODE,CUST_103,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000122,PROD_VOD,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-000123,PROD_ENCODE,CUST_105,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000124,PROD_OTT,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000125,PROD_VOD,CUST_106,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000126,PROD_OTT,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000127,PROD_OTT,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000128,PROD_OTT,CUST_102,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000129,PROD_LIVE,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000130,PROD_ENCODE,CUST_105,Media-Core,Production,Compute,Valid_Recovered
+TAG-000131,PROD_LIVE,CUST_104,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000132,PROD_ENCODE,CUST_106,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000133,PROD_OTT,CUST_105,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000134,PROD_ENCODE,CUST_101,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000135,PROD_VOD,CUST_104,Media-Core,Production,Storage,Valid_Recovered
+TAG-000136,PROD_VOD,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000137,PROD_OTT,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000138,PROD_LIVE,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000139,PROD_LIVE,CUST_106,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000140,UNALLOCATED_RECOVERY,CUST_106,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000141,PROD_ENCODE,CUST_103,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000142,PROD_VOD,CUST_104,Media-Core,Production,Storage,Valid_Recovered
+TAG-000143,PROD_LIVE,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000144,PROD_VOD,CUST_106,Media-Core,Production,Compute,Valid_Recovered
+TAG-000145,PROD_ENCODE,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000146,PROD_ENCODE,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000147,PROD_ENCODE,CUST_103,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000148,PROD_OTT,CUST_104,Media-Core,Development,Storage,Valid_Recovered
+TAG-000149,PROD_ENCODE,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000150,PROD_VOD,CUST_101,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000151,PROD_VOD,CUST_104,Media-Core,Production,Storage,Valid_Recovered
+TAG-000152,PROD_VOD,CUST_105,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000153,PROD_LIVE,CUST_102,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000154,PROD_VOD,CUST_105,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000155,PROD_OTT,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000156,PROD_OTT,CUST_105,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000157,PROD_LIVE,CUST_105,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000158,PROD_ENCODE,CUST_103,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000159,PROD_OTT,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000160,PROD_ENCODE,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000161,PROD_LIVE,CUST_105,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000162,PROD_OTT,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000163,PROD_VOD,CUST_102,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000164,PROD_LIVE,CUST_101,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000165,PROD_ENCODE,CUST_105,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000166,PROD_LIVE,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000167,PROD_LIVE,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000168,PROD_VOD,CUST_105,Media-Core,Development,Storage,Valid_Recovered
+TAG-000169,PROD_VOD,CUST_106,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000170,PROD_VOD,CUST_104,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000171,PROD_LIVE,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000172,PROD_ENCODE,CUST_103,Media-Core,Production,Storage,Valid_Recovered
+TAG-000173,PROD_LIVE,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000174,PROD_OTT,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000175,UNALLOCATED_RECOVERY,CUST_102,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000176,PROD_LIVE,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000177,PROD_OTT,CUST_106,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000178,PROD_LIVE,CUST_104,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000179,PROD_LIVE,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000180,PROD_VOD,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000181,PROD_VOD,CUST_101,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000182,PROD_LIVE,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000183,PROD_ENCODE,CUST_101,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000184,PROD_LIVE,CUST_102,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000185,PROD_OTT,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000186,PROD_OTT,CUST_106,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000187,PROD_ENCODE,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000188,PROD_OTT,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-000189,PROD_ENCODE,CUST_105,Media-Core,Development,Storage,Valid_Recovered
+TAG-000190,PROD_OTT,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000191,PROD_LIVE,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000192,PROD_LIVE,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000193,PROD_VOD,CUST_103,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000194,PROD_ENCODE,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000195,PROD_LIVE,CUST_103,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000196,PROD_VOD,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000197,PROD_LIVE,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000198,PROD_OTT,CUST_101,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000199,PROD_OTT,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000200,PROD_VOD,CUST_106,Media-Core,Production,Storage,Valid_Recovered
+TAG-000201,PROD_VOD,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000202,PROD_ENCODE,CUST_106,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000203,PROD_ENCODE,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000204,PROD_ENCODE,CUST_101,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000205,PROD_LIVE,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000206,PROD_VOD,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000207,PROD_LIVE,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000208,PROD_VOD,CUST_103,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000209,PROD_ENCODE,CUST_103,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000210,UNALLOCATED_RECOVERY,CUST_105,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000211,PROD_LIVE,CUST_105,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000212,PROD_OTT,CUST_104,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000213,PROD_OTT,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-000214,PROD_ENCODE,CUST_102,Media-Core,Production,Compute,Valid_Recovered
+TAG-000215,PROD_VOD,CUST_101,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000216,PROD_ENCODE,CUST_106,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000217,PROD_LIVE,CUST_103,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000218,PROD_LIVE,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000219,PROD_ENCODE,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000220,PROD_ENCODE,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-000221,PROD_VOD,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000222,PROD_VOD,CUST_106,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000223,PROD_LIVE,CUST_104,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000224,PROD_LIVE,CUST_106,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000225,PROD_OTT,CUST_106,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000226,PROD_ENCODE,CUST_101,Media-Core,Production,Storage,Valid_Recovered
+TAG-000227,PROD_VOD,CUST_104,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000228,PROD_VOD,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000229,PROD_LIVE,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000230,PROD_OTT,CUST_103,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000231,PROD_LIVE,CUST_105,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000232,PROD_OTT,CUST_102,Media-Core,Development,Storage,Valid_Recovered
+TAG-000233,PROD_ENCODE,CUST_103,Media-Core,Production,Storage,Valid_Recovered
+TAG-000234,PROD_OTT,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000235,PROD_LIVE,CUST_104,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000236,PROD_OTT,CUST_101,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000237,PROD_LIVE,CUST_105,Media-Core,Development,Compute,Valid_Recovered
+TAG-000238,PROD_OTT,CUST_101,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000239,PROD_ENCODE,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000240,PROD_LIVE,CUST_103,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000241,PROD_ENCODE,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000242,PROD_LIVE,CUST_101,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000243,PROD_LIVE,CUST_105,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000244,PROD_VOD,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000245,UNALLOCATED_RECOVERY,CUST_104,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000246,PROD_VOD,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000247,PROD_ENCODE,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000248,PROD_VOD,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-000249,PROD_LIVE,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-000250,PROD_LIVE,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000251,PROD_ENCODE,CUST_106,Media-Core,Production,Compute,Valid_Recovered
+TAG-000252,PROD_OTT,CUST_101,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000253,PROD_LIVE,CUST_103,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000254,PROD_ENCODE,CUST_101,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000255,PROD_OTT,CUST_103,Media-Core,Production,Compute,Valid_Recovered
+TAG-000256,PROD_OTT,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000257,PROD_VOD,CUST_101,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000258,PROD_ENCODE,CUST_101,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000259,PROD_VOD,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000260,PROD_VOD,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000261,PROD_OTT,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000262,PROD_LIVE,CUST_105,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000263,PROD_ENCODE,CUST_106,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000264,PROD_VOD,CUST_105,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000265,PROD_LIVE,CUST_105,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000266,PROD_OTT,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000267,PROD_ENCODE,CUST_101,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000268,PROD_LIVE,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000269,PROD_OTT,CUST_102,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000270,PROD_OTT,CUST_101,Media-Core,Production,Storage,Valid_Recovered
+TAG-000271,PROD_VOD,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000272,PROD_OTT,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000273,PROD_VOD,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000274,PROD_LIVE,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000275,PROD_LIVE,CUST_101,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000276,PROD_ENCODE,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000277,PROD_VOD,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000278,PROD_VOD,CUST_105,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000279,PROD_LIVE,CUST_106,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000280,UNALLOCATED_RECOVERY,CUST_102,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000281,PROD_ENCODE,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000282,PROD_LIVE,CUST_102,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000283,PROD_OTT,CUST_105,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000284,PROD_ENCODE,CUST_106,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000285,PROD_VOD,CUST_103,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000286,PROD_LIVE,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-000287,PROD_LIVE,CUST_104,Media-Core,Production,Storage,Valid_Recovered
+TAG-000288,PROD_OTT,CUST_101,Media-Core,Development,Storage,Valid_Recovered
+TAG-000289,PROD_ENCODE,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-000290,PROD_OTT,CUST_101,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000291,PROD_OTT,CUST_103,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000292,PROD_ENCODE,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000293,PROD_LIVE,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000294,PROD_ENCODE,CUST_104,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000295,PROD_VOD,CUST_104,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000296,PROD_OTT,CUST_101,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000297,PROD_VOD,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000298,PROD_ENCODE,CUST_104,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000299,PROD_OTT,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000300,PROD_VOD,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000301,PROD_VOD,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000302,PROD_ENCODE,CUST_101,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000303,PROD_ENCODE,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000304,PROD_ENCODE,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000305,PROD_VOD,CUST_104,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000306,PROD_ENCODE,CUST_104,Media-Core,Production,Storage,Valid_Recovered
+TAG-000307,PROD_LIVE,CUST_103,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000308,PROD_VOD,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000309,PROD_LIVE,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000310,PROD_LIVE,CUST_101,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000311,PROD_LIVE,CUST_101,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000312,PROD_OTT,CUST_102,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000313,PROD_OTT,CUST_106,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000314,PROD_OTT,CUST_106,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000315,UNALLOCATED_RECOVERY,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-000316,PROD_OTT,CUST_102,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000317,PROD_LIVE,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000318,PROD_VOD,CUST_105,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000319,PROD_VOD,CUST_103,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000320,PROD_LIVE,CUST_102,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000321,PROD_VOD,CUST_101,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000322,PROD_OTT,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000323,PROD_VOD,CUST_103,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000324,PROD_LIVE,CUST_103,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000325,PROD_LIVE,CUST_106,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000326,PROD_VOD,CUST_101,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000327,PROD_VOD,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000328,PROD_VOD,CUST_106,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000329,PROD_ENCODE,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000330,PROD_OTT,CUST_104,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000331,PROD_OTT,CUST_103,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000332,PROD_OTT,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000333,PROD_OTT,CUST_105,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000334,PROD_ENCODE,CUST_106,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000335,PROD_OTT,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000336,PROD_OTT,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000337,PROD_ENCODE,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000338,PROD_VOD,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000339,PROD_LIVE,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000340,PROD_VOD,CUST_103,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000341,PROD_ENCODE,CUST_104,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000342,PROD_LIVE,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000343,PROD_ENCODE,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000344,PROD_ENCODE,CUST_103,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000345,PROD_LIVE,CUST_106,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000346,PROD_LIVE,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000347,PROD_LIVE,CUST_101,Media-Core,Development,Storage,Valid_Recovered
+TAG-000348,PROD_VOD,CUST_103,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000349,PROD_VOD,CUST_101,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000350,UNALLOCATED_RECOVERY,CUST_103,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000351,PROD_OTT,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000352,PROD_LIVE,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-000353,PROD_VOD,CUST_106,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000354,PROD_LIVE,CUST_103,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000355,PROD_ENCODE,CUST_105,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000356,PROD_VOD,CUST_101,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000357,PROD_OTT,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000358,PROD_OTT,CUST_105,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000359,PROD_VOD,CUST_104,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000360,PROD_LIVE,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000361,PROD_OTT,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000362,PROD_LIVE,CUST_104,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000363,PROD_LIVE,CUST_101,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000364,PROD_LIVE,CUST_105,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000365,PROD_VOD,CUST_104,Media-Core,Development,Storage,Valid_Recovered
+TAG-000366,PROD_LIVE,CUST_106,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000367,PROD_LIVE,CUST_104,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000368,PROD_ENCODE,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000369,PROD_ENCODE,CUST_101,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000370,PROD_ENCODE,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000371,PROD_ENCODE,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000372,PROD_LIVE,CUST_101,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000373,PROD_LIVE,CUST_105,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000374,PROD_OTT,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000375,PROD_LIVE,CUST_105,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000376,PROD_OTT,CUST_106,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000377,PROD_LIVE,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-000378,PROD_ENCODE,CUST_101,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000379,PROD_VOD,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000380,PROD_OTT,CUST_102,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000381,PROD_VOD,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000382,PROD_VOD,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000383,PROD_VOD,CUST_104,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000384,PROD_VOD,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000385,UNALLOCATED_RECOVERY,CUST_104,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000386,PROD_ENCODE,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000387,PROD_OTT,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000388,PROD_LIVE,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000389,PROD_ENCODE,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000390,PROD_ENCODE,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000391,PROD_ENCODE,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000392,PROD_OTT,CUST_105,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000393,PROD_ENCODE,CUST_101,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000394,PROD_ENCODE,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-000395,PROD_VOD,CUST_105,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000396,PROD_ENCODE,CUST_102,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000397,PROD_VOD,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000398,PROD_OTT,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-000399,PROD_VOD,CUST_102,Media-Core,Development,Storage,Valid_Recovered
+TAG-000400,PROD_VOD,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000401,PROD_LIVE,CUST_104,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000402,PROD_LIVE,CUST_101,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000403,PROD_VOD,CUST_106,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000404,PROD_OTT,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000405,PROD_VOD,CUST_103,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000406,PROD_VOD,CUST_104,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000407,PROD_LIVE,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000408,PROD_ENCODE,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-000409,PROD_ENCODE,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000410,PROD_LIVE,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000411,PROD_ENCODE,CUST_102,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000412,PROD_ENCODE,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000413,PROD_ENCODE,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000414,PROD_ENCODE,CUST_101,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000415,PROD_OTT,CUST_103,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000416,PROD_ENCODE,CUST_102,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000417,PROD_ENCODE,CUST_105,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000418,PROD_ENCODE,CUST_101,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000419,PROD_ENCODE,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000420,UNALLOCATED_RECOVERY,CUST_102,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000421,PROD_OTT,CUST_104,Media-Core,Production,Storage,Valid_Recovered
+TAG-000422,PROD_LIVE,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000423,PROD_ENCODE,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000424,PROD_OTT,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000425,PROD_OTT,CUST_105,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000426,PROD_VOD,CUST_103,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000427,PROD_ENCODE,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000428,PROD_LIVE,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-000429,PROD_ENCODE,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000430,PROD_OTT,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000431,PROD_OTT,CUST_103,Media-Core,Production,Storage,Valid_Recovered
+TAG-000432,PROD_OTT,CUST_103,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000433,PROD_VOD,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000434,PROD_OTT,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000435,PROD_VOD,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000436,PROD_VOD,CUST_106,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000437,PROD_LIVE,CUST_104,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000438,PROD_VOD,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-000439,PROD_LIVE,CUST_106,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000440,PROD_VOD,CUST_101,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000441,PROD_LIVE,CUST_105,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000442,PROD_LIVE,CUST_103,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000443,PROD_ENCODE,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000444,PROD_VOD,CUST_102,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000445,PROD_LIVE,CUST_105,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000446,PROD_OTT,CUST_105,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000447,PROD_OTT,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-000448,PROD_LIVE,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000449,PROD_ENCODE,CUST_105,Media-Core,Development,Compute,Valid_Recovered
+TAG-000450,PROD_ENCODE,CUST_103,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000451,PROD_ENCODE,CUST_102,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000452,PROD_ENCODE,CUST_101,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000453,PROD_OTT,CUST_104,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000454,PROD_ENCODE,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000455,UNALLOCATED_RECOVERY,CUST_106,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000456,PROD_LIVE,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000457,PROD_ENCODE,CUST_103,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000458,PROD_ENCODE,CUST_101,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000459,PROD_LIVE,CUST_102,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000460,PROD_VOD,CUST_102,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000461,PROD_OTT,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000462,PROD_LIVE,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000463,PROD_ENCODE,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000464,PROD_VOD,CUST_101,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000465,PROD_VOD,CUST_104,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000466,PROD_VOD,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000467,PROD_OTT,CUST_105,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000468,PROD_OTT,CUST_105,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000469,PROD_ENCODE,CUST_103,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000470,PROD_OTT,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000471,PROD_VOD,CUST_105,Media-Core,Production,Compute,Valid_Recovered
+TAG-000472,PROD_ENCODE,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000473,PROD_LIVE,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-000474,PROD_OTT,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000475,PROD_VOD,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000476,PROD_LIVE,CUST_102,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000477,PROD_OTT,CUST_104,Media-Core,Development,Compute,Valid_Recovered
+TAG-000478,PROD_ENCODE,CUST_105,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000479,PROD_OTT,CUST_102,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000480,PROD_ENCODE,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000481,PROD_LIVE,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000482,PROD_OTT,CUST_101,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000483,PROD_VOD,CUST_103,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000484,PROD_ENCODE,CUST_102,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000485,PROD_LIVE,CUST_106,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000486,PROD_OTT,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-000487,PROD_LIVE,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000488,PROD_ENCODE,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000489,PROD_VOD,CUST_106,Media-Core,Production,Compute,Valid_Recovered
+TAG-000490,UNALLOCATED_RECOVERY,CUST_103,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000491,PROD_OTT,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000492,PROD_LIVE,CUST_103,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000493,PROD_VOD,CUST_103,Media-Core,Production,Storage,Valid_Recovered
+TAG-000494,PROD_LIVE,CUST_106,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000495,PROD_OTT,CUST_102,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000496,PROD_OTT,CUST_102,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000497,PROD_ENCODE,CUST_106,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000498,PROD_OTT,CUST_105,Media-Core,Production,Compute,Valid_Recovered
+TAG-000499,PROD_VOD,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000500,PROD_OTT,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000501,PROD_OTT,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000502,PROD_VOD,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000503,PROD_LIVE,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000504,PROD_OTT,CUST_101,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000505,PROD_ENCODE,CUST_104,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000506,PROD_LIVE,CUST_103,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000507,PROD_LIVE,CUST_106,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000508,PROD_OTT,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000509,PROD_ENCODE,CUST_104,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000510,PROD_LIVE,CUST_103,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000511,PROD_LIVE,CUST_105,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000512,PROD_LIVE,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000513,PROD_ENCODE,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000514,PROD_OTT,CUST_105,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000515,PROD_OTT,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-000516,PROD_LIVE,CUST_102,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000517,PROD_ENCODE,CUST_101,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000518,PROD_LIVE,CUST_103,Media-Core,Production,Storage,Valid_Recovered
+TAG-000519,PROD_ENCODE,CUST_104,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000520,PROD_OTT,CUST_101,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000521,PROD_LIVE,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000522,PROD_LIVE,CUST_101,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000523,PROD_LIVE,CUST_103,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000524,PROD_VOD,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000525,UNALLOCATED_RECOVERY,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000526,PROD_OTT,CUST_105,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000527,PROD_LIVE,CUST_101,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000528,PROD_OTT,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000529,PROD_VOD,CUST_105,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000530,PROD_VOD,CUST_101,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000531,PROD_LIVE,CUST_101,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000532,PROD_OTT,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000533,PROD_VOD,CUST_106,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000534,PROD_ENCODE,CUST_105,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000535,PROD_LIVE,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000536,PROD_OTT,CUST_106,Media-Core,Production,Compute,Valid_Recovered
+TAG-000537,PROD_OTT,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000538,PROD_VOD,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000539,PROD_LIVE,CUST_104,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000540,PROD_LIVE,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000541,PROD_ENCODE,CUST_102,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000542,PROD_VOD,CUST_106,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000543,PROD_LIVE,CUST_106,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000544,PROD_OTT,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000545,PROD_ENCODE,CUST_104,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000546,PROD_OTT,CUST_102,Media-Core,Production,Storage,Valid_Recovered
+TAG-000547,PROD_VOD,CUST_102,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000548,PROD_ENCODE,CUST_104,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000549,PROD_LIVE,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000550,PROD_VOD,CUST_103,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000551,PROD_LIVE,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000552,PROD_ENCODE,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000553,PROD_ENCODE,CUST_104,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000554,PROD_LIVE,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000555,PROD_VOD,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000556,PROD_LIVE,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000557,PROD_OTT,CUST_103,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000558,PROD_LIVE,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000559,PROD_ENCODE,CUST_105,Media-Core,Development,Storage,Valid_Recovered
+TAG-000560,UNALLOCATED_RECOVERY,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000561,PROD_LIVE,CUST_102,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000562,PROD_LIVE,CUST_103,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000563,PROD_LIVE,CUST_101,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000564,PROD_LIVE,CUST_104,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000565,PROD_VOD,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000566,PROD_OTT,CUST_104,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000567,PROD_OTT,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000568,PROD_ENCODE,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000569,PROD_ENCODE,CUST_105,Media-Core,Production,Storage,Valid_Recovered
+TAG-000570,PROD_OTT,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000571,PROD_ENCODE,CUST_106,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000572,PROD_OTT,CUST_105,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000573,PROD_LIVE,CUST_102,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000574,PROD_ENCODE,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000575,PROD_LIVE,CUST_103,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000576,PROD_VOD,CUST_103,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000577,PROD_ENCODE,CUST_104,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000578,PROD_VOD,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000579,PROD_OTT,CUST_101,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000580,PROD_VOD,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000581,PROD_VOD,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000582,PROD_OTT,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-000583,PROD_LIVE,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000584,PROD_LIVE,CUST_102,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000585,PROD_LIVE,CUST_102,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000586,PROD_ENCODE,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-000587,PROD_VOD,CUST_103,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000588,PROD_VOD,CUST_105,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000589,PROD_OTT,CUST_105,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000590,PROD_VOD,CUST_103,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000591,PROD_LIVE,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000592,PROD_OTT,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000593,PROD_OTT,CUST_101,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000594,PROD_OTT,CUST_101,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000595,UNALLOCATED_RECOVERY,CUST_101,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000596,PROD_ENCODE,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000597,PROD_LIVE,CUST_104,Media-Core,Development,Storage,Valid_Recovered
+TAG-000598,PROD_LIVE,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-000599,PROD_VOD,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000600,PROD_LIVE,CUST_101,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000601,PROD_ENCODE,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000602,PROD_LIVE,CUST_102,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000603,PROD_OTT,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-000604,PROD_OTT,CUST_104,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000605,PROD_LIVE,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000606,PROD_LIVE,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000607,PROD_ENCODE,CUST_106,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000608,PROD_VOD,CUST_103,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000609,PROD_ENCODE,CUST_105,Media-Core,Development,Storage,Valid_Recovered
+TAG-000610,PROD_VOD,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000611,PROD_VOD,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000612,PROD_LIVE,CUST_103,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000613,PROD_LIVE,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000614,PROD_OTT,CUST_106,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000615,PROD_OTT,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000616,PROD_OTT,CUST_102,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000617,PROD_LIVE,CUST_101,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000618,PROD_ENCODE,CUST_106,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000619,PROD_OTT,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000620,PROD_VOD,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-000621,PROD_VOD,CUST_103,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000622,PROD_VOD,CUST_101,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000623,PROD_ENCODE,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000624,PROD_LIVE,CUST_102,Media-Core,Development,Storage,Valid_Recovered
+TAG-000625,PROD_OTT,CUST_106,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000626,PROD_VOD,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000627,PROD_OTT,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000628,PROD_LIVE,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000629,PROD_OTT,CUST_104,Media-Core,Production,Compute,Valid_Recovered
+TAG-000630,UNALLOCATED_RECOVERY,CUST_106,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000631,PROD_ENCODE,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000632,PROD_VOD,CUST_104,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000633,PROD_VOD,CUST_103,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000634,PROD_LIVE,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000635,PROD_VOD,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000636,PROD_VOD,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000637,PROD_VOD,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000638,PROD_ENCODE,CUST_101,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000639,PROD_ENCODE,CUST_103,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000640,PROD_OTT,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000641,PROD_VOD,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000642,PROD_VOD,CUST_105,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000643,PROD_VOD,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000644,PROD_LIVE,CUST_104,Media-Core,Production,Storage,Valid_Recovered
+TAG-000645,PROD_VOD,CUST_102,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000646,PROD_ENCODE,CUST_105,Media-Core,Production,Compute,Valid_Recovered
+TAG-000647,PROD_LIVE,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000648,PROD_OTT,CUST_105,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000649,PROD_ENCODE,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-000650,PROD_ENCODE,CUST_106,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000651,PROD_VOD,CUST_103,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000652,PROD_ENCODE,CUST_101,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000653,PROD_ENCODE,CUST_102,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000654,PROD_VOD,CUST_105,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000655,PROD_ENCODE,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000656,PROD_ENCODE,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000657,PROD_VOD,CUST_105,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000658,PROD_OTT,CUST_101,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000659,PROD_LIVE,CUST_106,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000660,PROD_LIVE,CUST_103,Media-Core,Production,Storage,Valid_Recovered
+TAG-000661,PROD_OTT,CUST_101,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000662,PROD_OTT,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000663,PROD_OTT,CUST_105,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000664,PROD_VOD,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000665,UNALLOCATED_RECOVERY,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000666,PROD_LIVE,CUST_103,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000667,PROD_LIVE,CUST_103,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000668,PROD_LIVE,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000669,PROD_LIVE,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000670,PROD_VOD,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000671,PROD_VOD,CUST_105,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000672,PROD_OTT,CUST_102,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000673,PROD_VOD,CUST_102,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000674,PROD_OTT,CUST_106,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000675,PROD_ENCODE,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000676,PROD_OTT,CUST_102,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000677,PROD_LIVE,CUST_105,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000678,PROD_ENCODE,CUST_105,Media-Core,Production,Compute,Valid_Recovered
+TAG-000679,PROD_LIVE,CUST_104,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000680,PROD_OTT,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000681,PROD_LIVE,CUST_102,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000682,PROD_ENCODE,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000683,PROD_VOD,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000684,PROD_VOD,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000685,PROD_ENCODE,CUST_106,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000686,PROD_OTT,CUST_102,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000687,PROD_OTT,CUST_102,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000688,PROD_OTT,CUST_102,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000689,PROD_OTT,CUST_104,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000690,PROD_LIVE,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000691,PROD_OTT,CUST_105,Media-Core,Production,Storage,Valid_Recovered
+TAG-000692,PROD_OTT,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000693,PROD_OTT,CUST_102,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000694,PROD_ENCODE,CUST_104,Media-Core,Development,Storage,Valid_Recovered
+TAG-000695,PROD_VOD,CUST_104,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000696,PROD_OTT,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000697,PROD_VOD,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000698,PROD_ENCODE,CUST_103,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000699,PROD_LIVE,CUST_101,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000700,UNALLOCATED_RECOVERY,CUST_105,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000701,PROD_LIVE,CUST_106,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000702,PROD_OTT,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000703,PROD_VOD,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000704,PROD_OTT,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000705,PROD_VOD,CUST_104,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000706,PROD_LIVE,CUST_103,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000707,PROD_ENCODE,CUST_102,Media-Core,Production,Compute,Valid_Recovered
+TAG-000708,PROD_LIVE,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000709,PROD_LIVE,CUST_102,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000710,PROD_ENCODE,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000711,PROD_OTT,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000712,PROD_VOD,CUST_105,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000713,PROD_VOD,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-000714,PROD_LIVE,CUST_105,Media-Core,Production,Storage,Valid_Recovered
+TAG-000715,PROD_OTT,CUST_101,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000716,PROD_LIVE,CUST_101,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000717,PROD_LIVE,CUST_101,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000718,PROD_VOD,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000719,PROD_ENCODE,CUST_105,Media-Core,Development,Storage,Valid_Recovered
+TAG-000720,PROD_OTT,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-000721,PROD_VOD,CUST_102,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000722,PROD_ENCODE,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000723,PROD_OTT,CUST_105,Media-Core,Development,Storage,Valid_Recovered
+TAG-000724,PROD_OTT,CUST_105,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000725,PROD_VOD,CUST_106,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000726,PROD_LIVE,CUST_105,Media-Core,Development,Compute,Valid_Recovered
+TAG-000727,PROD_OTT,CUST_105,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000728,PROD_VOD,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-000729,PROD_OTT,CUST_105,Media-Core,Development,Compute,Valid_Recovered
+TAG-000730,PROD_OTT,CUST_101,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000731,PROD_OTT,CUST_106,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000732,PROD_VOD,CUST_103,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000733,PROD_LIVE,CUST_101,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000734,PROD_VOD,CUST_101,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000735,UNALLOCATED_RECOVERY,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000736,PROD_ENCODE,CUST_104,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000737,PROD_VOD,CUST_106,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000738,PROD_VOD,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000739,PROD_OTT,CUST_105,Media-Core,Development,Storage,Valid_Recovered
+TAG-000740,PROD_OTT,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-000741,PROD_LIVE,CUST_106,Media-Core,Production,Compute,Valid_Recovered
+TAG-000742,PROD_VOD,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-000743,PROD_LIVE,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000744,PROD_LIVE,CUST_102,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000745,PROD_OTT,CUST_106,Media-Core,Production,Compute,Valid_Recovered
+TAG-000746,PROD_OTT,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000747,PROD_VOD,CUST_106,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000748,PROD_LIVE,CUST_103,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000749,PROD_LIVE,CUST_105,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000750,PROD_ENCODE,CUST_104,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000751,PROD_LIVE,CUST_105,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000752,PROD_ENCODE,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000753,PROD_VOD,CUST_105,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000754,PROD_VOD,CUST_101,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000755,PROD_OTT,CUST_106,Media-Core,Production,Compute,Valid_Recovered
+TAG-000756,PROD_LIVE,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-000757,PROD_VOD,CUST_106,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000758,PROD_ENCODE,CUST_102,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000759,PROD_ENCODE,CUST_103,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000760,PROD_LIVE,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000761,PROD_LIVE,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000762,PROD_VOD,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000763,PROD_LIVE,CUST_106,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000764,PROD_ENCODE,CUST_105,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000765,PROD_VOD,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000766,PROD_ENCODE,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000767,PROD_OTT,CUST_105,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000768,PROD_ENCODE,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000769,PROD_LIVE,CUST_103,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000770,UNALLOCATED_RECOVERY,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-000771,PROD_ENCODE,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-000772,PROD_OTT,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000773,PROD_ENCODE,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000774,PROD_ENCODE,CUST_106,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000775,PROD_LIVE,CUST_105,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000776,PROD_OTT,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000777,PROD_OTT,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000778,PROD_OTT,CUST_103,Media-Core,Production,Compute,Valid_Recovered
+TAG-000779,PROD_VOD,CUST_106,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000780,PROD_OTT,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000781,PROD_OTT,CUST_101,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000782,PROD_ENCODE,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000783,PROD_LIVE,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000784,PROD_VOD,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-000785,PROD_ENCODE,CUST_102,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000786,PROD_LIVE,CUST_103,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000787,PROD_ENCODE,CUST_105,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000788,PROD_LIVE,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000789,PROD_VOD,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-000790,PROD_LIVE,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000791,PROD_OTT,CUST_102,Media-Core,Production,Compute,Valid_Recovered
+TAG-000792,PROD_ENCODE,CUST_106,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000793,PROD_ENCODE,CUST_102,Media-Core,Production,Storage,Valid_Recovered
+TAG-000794,PROD_LIVE,CUST_102,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000795,PROD_ENCODE,CUST_102,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000796,PROD_OTT,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000797,PROD_LIVE,CUST_105,Media-Core,Production,Compute,Valid_Recovered
+TAG-000798,PROD_ENCODE,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000799,PROD_VOD,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000800,PROD_LIVE,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-000801,PROD_VOD,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000802,PROD_OTT,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000803,PROD_ENCODE,CUST_105,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000804,PROD_VOD,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000805,UNALLOCATED_RECOVERY,CUST_101,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000806,PROD_OTT,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000807,PROD_LIVE,CUST_103,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000808,PROD_VOD,CUST_104,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000809,PROD_VOD,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000810,PROD_VOD,CUST_106,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000811,PROD_VOD,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000812,PROD_ENCODE,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000813,PROD_ENCODE,CUST_102,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000814,PROD_OTT,CUST_104,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000815,PROD_VOD,CUST_104,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000816,PROD_ENCODE,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000817,PROD_ENCODE,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000818,PROD_LIVE,CUST_105,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000819,PROD_VOD,CUST_102,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000820,PROD_LIVE,CUST_105,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000821,PROD_OTT,CUST_105,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000822,PROD_OTT,CUST_103,Media-Core,Development,Storage,Valid_Recovered
+TAG-000823,PROD_OTT,CUST_106,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000824,PROD_ENCODE,CUST_106,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000825,PROD_VOD,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000826,PROD_VOD,CUST_102,Media-Core,Development,Storage,Valid_Recovered
+TAG-000827,PROD_OTT,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000828,PROD_VOD,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000829,PROD_ENCODE,CUST_106,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000830,PROD_OTT,CUST_103,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000831,PROD_LIVE,CUST_104,Media-Core,Development,Storage,Valid_Recovered
+TAG-000832,PROD_VOD,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000833,PROD_ENCODE,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000834,PROD_ENCODE,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-000835,PROD_ENCODE,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000836,PROD_OTT,CUST_103,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000837,PROD_OTT,CUST_103,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000838,PROD_ENCODE,CUST_104,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000839,PROD_LIVE,CUST_101,Media-Core,Production,Storage,Valid_Recovered
+TAG-000840,UNALLOCATED_RECOVERY,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-000841,PROD_OTT,CUST_104,Media-Core,Production,Compute,Valid_Recovered
+TAG-000842,PROD_OTT,CUST_104,Media-Core,Development,Storage,Valid_Recovered
+TAG-000843,PROD_ENCODE,CUST_105,Media-Core,Development,Compute,Valid_Recovered
+TAG-000844,PROD_VOD,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000845,PROD_ENCODE,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000846,PROD_LIVE,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000847,PROD_ENCODE,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000848,PROD_VOD,CUST_101,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000849,PROD_ENCODE,CUST_104,Media-Core,Production,Compute,Valid_Recovered
+TAG-000850,PROD_LIVE,CUST_103,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000851,PROD_OTT,CUST_106,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000852,PROD_ENCODE,CUST_102,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000853,PROD_ENCODE,CUST_105,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000854,PROD_VOD,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-000855,PROD_VOD,CUST_104,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000856,PROD_ENCODE,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000857,PROD_VOD,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000858,PROD_LIVE,CUST_101,Media-Core,Development,Storage,Valid_Recovered
+TAG-000859,PROD_LIVE,CUST_102,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000860,PROD_OTT,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000861,PROD_VOD,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000862,PROD_VOD,CUST_104,Media-Core,Production,Compute,Valid_Recovered
+TAG-000863,PROD_OTT,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000864,PROD_LIVE,CUST_103,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000865,PROD_VOD,CUST_106,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000866,PROD_LIVE,CUST_103,Media-Core,Production,Compute,Valid_Recovered
+TAG-000867,PROD_VOD,CUST_101,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000868,PROD_VOD,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-000869,PROD_ENCODE,CUST_101,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000870,PROD_ENCODE,CUST_106,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000871,PROD_OTT,CUST_102,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000872,PROD_OTT,CUST_103,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000873,PROD_LIVE,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000874,PROD_OTT,CUST_106,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000875,UNALLOCATED_RECOVERY,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000876,PROD_OTT,CUST_106,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000877,PROD_LIVE,CUST_104,Media-Core,Development,Storage,Valid_Recovered
+TAG-000878,PROD_OTT,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000879,PROD_LIVE,CUST_104,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000880,PROD_VOD,CUST_103,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000881,PROD_LIVE,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000882,PROD_OTT,CUST_105,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000883,PROD_VOD,CUST_106,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000884,PROD_LIVE,CUST_105,Media-Core,Development,Compute,Valid_Recovered
+TAG-000885,PROD_ENCODE,CUST_103,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000886,PROD_VOD,CUST_105,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000887,PROD_OTT,CUST_103,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000888,PROD_OTT,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000889,PROD_ENCODE,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000890,PROD_ENCODE,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000891,PROD_ENCODE,CUST_103,Media-Core,Production,Storage,Valid_Recovered
+TAG-000892,PROD_VOD,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000893,PROD_ENCODE,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000894,PROD_LIVE,CUST_104,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000895,PROD_OTT,CUST_106,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000896,PROD_VOD,CUST_102,Media-Core,Production,Storage,Valid_Recovered
+TAG-000897,PROD_VOD,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000898,PROD_OTT,CUST_106,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-000899,PROD_VOD,CUST_104,Media-Core,Production,Compute,Valid_Recovered
+TAG-000900,PROD_OTT,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000901,PROD_LIVE,CUST_104,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000902,PROD_VOD,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000903,PROD_VOD,CUST_106,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000904,PROD_LIVE,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000905,PROD_OTT,CUST_102,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000906,PROD_ENCODE,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000907,PROD_LIVE,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000908,PROD_OTT,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000909,PROD_OTT,CUST_105,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000910,UNALLOCATED_RECOVERY,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000911,PROD_VOD,CUST_104,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000912,PROD_VOD,CUST_105,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000913,PROD_OTT,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000914,PROD_LIVE,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000915,PROD_VOD,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000916,PROD_VOD,CUST_106,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000917,PROD_ENCODE,CUST_103,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000918,PROD_LIVE,CUST_105,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000919,PROD_VOD,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-000920,PROD_LIVE,CUST_106,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000921,PROD_ENCODE,CUST_106,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000922,PROD_OTT,CUST_102,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000923,PROD_ENCODE,CUST_104,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000924,PROD_LIVE,CUST_103,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000925,PROD_ENCODE,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000926,PROD_LIVE,CUST_105,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000927,PROD_OTT,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-000928,PROD_ENCODE,CUST_101,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000929,PROD_VOD,CUST_103,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000930,PROD_ENCODE,CUST_105,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000931,PROD_ENCODE,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000932,PROD_LIVE,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-000933,PROD_VOD,CUST_105,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000934,PROD_ENCODE,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-000935,PROD_ENCODE,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000936,PROD_ENCODE,CUST_102,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000937,PROD_ENCODE,CUST_102,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000938,PROD_OTT,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000939,PROD_ENCODE,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000940,PROD_LIVE,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000941,PROD_VOD,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000942,PROD_ENCODE,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000943,PROD_OTT,CUST_103,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-000944,PROD_OTT,CUST_105,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000945,UNALLOCATED_RECOVERY,CUST_102,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-000946,PROD_ENCODE,CUST_103,Media-Core,Development,Storage,Valid_Recovered
+TAG-000947,PROD_ENCODE,CUST_105,Media-Core,Production,Compute,Valid_Recovered
+TAG-000948,PROD_LIVE,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-000949,PROD_OTT,CUST_101,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000950,PROD_LIVE,CUST_106,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000951,PROD_VOD,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000952,PROD_OTT,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000953,PROD_OTT,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000954,PROD_OTT,CUST_101,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-000955,PROD_LIVE,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000956,PROD_ENCODE,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-000957,PROD_ENCODE,CUST_103,Media-Core,Production,Storage,Valid_Recovered
+TAG-000958,PROD_LIVE,CUST_101,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000959,PROD_OTT,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000960,PROD_OTT,CUST_104,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-000961,PROD_ENCODE,CUST_103,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000962,PROD_LIVE,CUST_105,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000963,PROD_ENCODE,CUST_104,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000964,PROD_ENCODE,CUST_105,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000965,PROD_OTT,CUST_105,Media-Core,Production,Compute,Valid_Recovered
+TAG-000966,PROD_ENCODE,CUST_106,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-000967,PROD_LIVE,CUST_104,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-000968,PROD_ENCODE,CUST_105,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000969,PROD_OTT,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000970,PROD_VOD,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-000971,PROD_ENCODE,CUST_106,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000972,PROD_LIVE,CUST_103,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-000973,PROD_VOD,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000974,PROD_VOD,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000975,PROD_VOD,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000976,PROD_LIVE,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000977,PROD_LIVE,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000978,PROD_VOD,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000979,PROD_LIVE,CUST_101,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000980,UNALLOCATED_RECOVERY,CUST_105,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000981,PROD_OTT,CUST_105,Media-Core,Development,Compute,Valid_Recovered
+TAG-000982,PROD_LIVE,CUST_106,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-000983,PROD_ENCODE,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-000984,PROD_VOD,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000985,PROD_VOD,CUST_106,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-000986,PROD_OTT,CUST_101,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-000987,PROD_LIVE,CUST_102,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-000988,PROD_OTT,CUST_105,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000989,PROD_ENCODE,CUST_101,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000990,PROD_ENCODE,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-000991,PROD_LIVE,CUST_102,Platform-Team,Production,Compute,Valid_Recovered
+TAG-000992,PROD_OTT,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-000993,PROD_OTT,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000994,PROD_ENCODE,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-000995,PROD_VOD,CUST_103,Platform-Team,Development,Storage,Valid_Recovered
+TAG-000996,PROD_VOD,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-000997,PROD_ENCODE,CUST_104,Media-Core,Production,Storage,Valid_Recovered
+TAG-000998,PROD_ENCODE,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-000999,PROD_ENCODE,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001000,PROD_VOD,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-001001,PROD_ENCODE,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001002,PROD_LIVE,CUST_102,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001003,PROD_LIVE,CUST_101,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001004,PROD_ENCODE,CUST_106,Media-Core,Production,Compute,Valid_Recovered
+TAG-001005,PROD_VOD,CUST_103,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001006,PROD_ENCODE,CUST_104,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001007,PROD_OTT,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001008,PROD_VOD,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001009,PROD_LIVE,CUST_105,Media-Core,Production,Storage,Valid_Recovered
+TAG-001010,PROD_OTT,CUST_103,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001011,PROD_ENCODE,CUST_104,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001012,PROD_ENCODE,CUST_104,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001013,PROD_ENCODE,CUST_101,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001014,PROD_OTT,CUST_106,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001015,UNALLOCATED_RECOVERY,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001016,PROD_OTT,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001017,PROD_LIVE,CUST_105,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001018,PROD_OTT,CUST_103,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001019,PROD_VOD,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001020,PROD_VOD,CUST_104,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001021,PROD_LIVE,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001022,PROD_VOD,CUST_104,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001023,PROD_ENCODE,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001024,PROD_LIVE,CUST_101,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001025,PROD_LIVE,CUST_101,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001026,PROD_VOD,CUST_101,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001027,PROD_OTT,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-001028,PROD_OTT,CUST_105,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001029,PROD_ENCODE,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001030,PROD_OTT,CUST_103,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001031,PROD_OTT,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001032,PROD_ENCODE,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001033,PROD_LIVE,CUST_103,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001034,PROD_LIVE,CUST_106,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001035,PROD_LIVE,CUST_103,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001036,PROD_ENCODE,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001037,PROD_ENCODE,CUST_106,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001038,PROD_LIVE,CUST_103,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001039,PROD_VOD,CUST_105,Media-Core,Development,Compute,Valid_Recovered
+TAG-001040,PROD_OTT,CUST_104,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001041,PROD_LIVE,CUST_105,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001042,PROD_OTT,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001043,PROD_ENCODE,CUST_105,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001044,PROD_ENCODE,CUST_105,Media-Core,Production,Compute,Valid_Recovered
+TAG-001045,PROD_LIVE,CUST_106,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001046,PROD_VOD,CUST_106,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001047,PROD_LIVE,CUST_105,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001048,PROD_LIVE,CUST_101,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001049,PROD_VOD,CUST_106,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001050,UNALLOCATED_RECOVERY,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001051,PROD_LIVE,CUST_102,Media-Core,Production,Storage,Valid_Recovered
+TAG-001052,PROD_OTT,CUST_104,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001053,PROD_LIVE,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001054,PROD_LIVE,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001055,PROD_LIVE,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001056,PROD_VOD,CUST_102,Media-Core,Development,Storage,Valid_Recovered
+TAG-001057,PROD_OTT,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001058,PROD_OTT,CUST_102,Media-Core,Production,Storage,Valid_Recovered
+TAG-001059,PROD_OTT,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001060,PROD_OTT,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001061,PROD_LIVE,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-001062,PROD_LIVE,CUST_103,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001063,PROD_LIVE,CUST_101,Media-Core,Production,Storage,Valid_Recovered
+TAG-001064,PROD_ENCODE,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001065,PROD_OTT,CUST_106,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001066,PROD_ENCODE,CUST_106,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001067,PROD_OTT,CUST_103,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001068,PROD_VOD,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001069,PROD_ENCODE,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001070,PROD_VOD,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001071,PROD_ENCODE,CUST_104,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001072,PROD_LIVE,CUST_105,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001073,PROD_OTT,CUST_102,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001074,PROD_VOD,CUST_103,Media-Core,Production,Compute,Valid_Recovered
+TAG-001075,PROD_OTT,CUST_102,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001076,PROD_LIVE,CUST_104,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001077,PROD_ENCODE,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001078,PROD_VOD,CUST_102,Media-Core,Production,Storage,Valid_Recovered
+TAG-001079,PROD_VOD,CUST_106,Media-Core,Production,Storage,Valid_Recovered
+TAG-001080,PROD_OTT,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001081,PROD_ENCODE,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-001082,PROD_VOD,CUST_106,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001083,PROD_LIVE,CUST_102,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001084,PROD_OTT,CUST_105,Media-Core,Production,Compute,Valid_Recovered
+TAG-001085,UNALLOCATED_RECOVERY,CUST_103,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001086,PROD_LIVE,CUST_104,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001087,PROD_LIVE,CUST_102,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001088,PROD_LIVE,CUST_102,Media-Core,Production,Storage,Valid_Recovered
+TAG-001089,PROD_LIVE,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001090,PROD_LIVE,CUST_103,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001091,PROD_VOD,CUST_106,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001092,PROD_ENCODE,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-001093,PROD_OTT,CUST_102,Media-Core,Production,Compute,Valid_Recovered
+TAG-001094,PROD_VOD,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001095,PROD_LIVE,CUST_103,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001096,PROD_OTT,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001097,PROD_ENCODE,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001098,PROD_OTT,CUST_104,Media-Core,Production,Storage,Valid_Recovered
+TAG-001099,PROD_OTT,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001100,PROD_OTT,CUST_104,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001101,PROD_OTT,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001102,PROD_ENCODE,CUST_106,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001103,PROD_ENCODE,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001104,PROD_VOD,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001105,PROD_ENCODE,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001106,PROD_OTT,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001107,PROD_VOD,CUST_101,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001108,PROD_OTT,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001109,PROD_OTT,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001110,PROD_VOD,CUST_105,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001111,PROD_OTT,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001112,PROD_ENCODE,CUST_105,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001113,PROD_LIVE,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001114,PROD_VOD,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-001115,PROD_ENCODE,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001116,PROD_ENCODE,CUST_101,Media-Core,Production,Storage,Valid_Recovered
+TAG-001117,PROD_LIVE,CUST_102,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001118,PROD_LIVE,CUST_103,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001119,PROD_LIVE,CUST_105,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001120,UNALLOCATED_RECOVERY,CUST_101,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001121,PROD_ENCODE,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001122,PROD_ENCODE,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001123,PROD_VOD,CUST_105,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001124,PROD_OTT,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001125,PROD_VOD,CUST_101,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001126,PROD_OTT,CUST_104,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001127,PROD_OTT,CUST_106,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001128,PROD_VOD,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001129,PROD_ENCODE,CUST_105,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001130,PROD_VOD,CUST_105,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001131,PROD_LIVE,CUST_103,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001132,PROD_ENCODE,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001133,PROD_LIVE,CUST_102,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001134,PROD_LIVE,CUST_104,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001135,PROD_ENCODE,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001136,PROD_OTT,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001137,PROD_LIVE,CUST_103,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001138,PROD_ENCODE,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-001139,PROD_OTT,CUST_105,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001140,PROD_VOD,CUST_104,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001141,PROD_ENCODE,CUST_106,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001142,PROD_OTT,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001143,PROD_OTT,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001144,PROD_VOD,CUST_102,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001145,PROD_LIVE,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001146,PROD_LIVE,CUST_105,Media-Core,Production,Storage,Valid_Recovered
+TAG-001147,PROD_LIVE,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001148,PROD_VOD,CUST_102,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001149,PROD_LIVE,CUST_106,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001150,PROD_LIVE,CUST_102,Media-Core,Production,Storage,Valid_Recovered
+TAG-001151,PROD_LIVE,CUST_101,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001152,PROD_VOD,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001153,PROD_VOD,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001154,PROD_LIVE,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001155,UNALLOCATED_RECOVERY,CUST_103,Media-Core,Production,Compute,Valid_Recovered
+TAG-001156,PROD_LIVE,CUST_104,Media-Core,Production,Compute,Valid_Recovered
+TAG-001157,PROD_VOD,CUST_105,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001158,PROD_VOD,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001159,PROD_VOD,CUST_102,Media-Core,Development,Storage,Valid_Recovered
+TAG-001160,PROD_OTT,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001161,PROD_VOD,CUST_106,Media-Core,Production,Storage,Valid_Recovered
+TAG-001162,PROD_ENCODE,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001163,PROD_OTT,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001164,PROD_ENCODE,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001165,PROD_OTT,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001166,PROD_VOD,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001167,PROD_ENCODE,CUST_101,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001168,PROD_LIVE,CUST_101,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001169,PROD_LIVE,CUST_106,Media-Core,Production,Storage,Valid_Recovered
+TAG-001170,PROD_VOD,CUST_102,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001171,PROD_ENCODE,CUST_106,Media-Core,Production,Storage,Valid_Recovered
+TAG-001172,PROD_LIVE,CUST_102,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001173,PROD_LIVE,CUST_102,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001174,PROD_ENCODE,CUST_104,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001175,PROD_VOD,CUST_102,Media-Core,Production,Compute,Valid_Recovered
+TAG-001176,PROD_VOD,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001177,PROD_OTT,CUST_102,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001178,PROD_ENCODE,CUST_106,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001179,PROD_VOD,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001180,PROD_ENCODE,CUST_104,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001181,PROD_VOD,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001182,PROD_LIVE,CUST_105,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001183,PROD_ENCODE,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001184,PROD_LIVE,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001185,PROD_OTT,CUST_102,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001186,PROD_VOD,CUST_103,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001187,PROD_OTT,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-001188,PROD_ENCODE,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001189,PROD_OTT,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001190,UNALLOCATED_RECOVERY,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001191,PROD_LIVE,CUST_104,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001192,PROD_ENCODE,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-001193,PROD_ENCODE,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001194,PROD_OTT,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001195,PROD_VOD,CUST_101,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001196,PROD_LIVE,CUST_104,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001197,PROD_LIVE,CUST_105,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001198,PROD_LIVE,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-001199,PROD_VOD,CUST_102,Media-Core,Production,Storage,Valid_Recovered
+TAG-001200,PROD_VOD,CUST_104,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001201,PROD_VOD,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-001202,PROD_LIVE,CUST_103,Media-Core,Development,Storage,Valid_Recovered
+TAG-001203,PROD_VOD,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001204,PROD_VOD,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-001205,PROD_ENCODE,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001206,PROD_ENCODE,CUST_105,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001207,PROD_VOD,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001208,PROD_VOD,CUST_103,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001209,PROD_VOD,CUST_105,Media-Core,Production,Compute,Valid_Recovered
+TAG-001210,PROD_OTT,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001211,PROD_ENCODE,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001212,PROD_OTT,CUST_102,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001213,PROD_VOD,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001214,PROD_LIVE,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001215,PROD_OTT,CUST_101,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001216,PROD_LIVE,CUST_102,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001217,PROD_OTT,CUST_102,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001218,PROD_LIVE,CUST_104,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001219,PROD_LIVE,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001220,PROD_OTT,CUST_106,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001221,PROD_ENCODE,CUST_102,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001222,PROD_ENCODE,CUST_102,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001223,PROD_OTT,CUST_106,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001224,PROD_OTT,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001225,UNALLOCATED_RECOVERY,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001226,PROD_OTT,CUST_103,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001227,PROD_LIVE,CUST_103,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001228,PROD_LIVE,CUST_105,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001229,PROD_ENCODE,CUST_104,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001230,PROD_LIVE,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001231,PROD_VOD,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001232,PROD_ENCODE,CUST_104,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001233,PROD_VOD,CUST_101,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001234,PROD_OTT,CUST_104,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001235,PROD_OTT,CUST_102,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001236,PROD_LIVE,CUST_105,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001237,PROD_LIVE,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001238,PROD_OTT,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001239,PROD_VOD,CUST_106,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001240,PROD_OTT,CUST_102,Media-Core,Production,Compute,Valid_Recovered
+TAG-001241,PROD_ENCODE,CUST_103,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001242,PROD_OTT,CUST_104,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001243,PROD_OTT,CUST_102,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001244,PROD_VOD,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001245,PROD_VOD,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001246,PROD_LIVE,CUST_103,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001247,PROD_ENCODE,CUST_102,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001248,PROD_LIVE,CUST_103,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001249,PROD_VOD,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001250,PROD_ENCODE,CUST_103,Media-Core,Development,Storage,Valid_Recovered
+TAG-001251,PROD_VOD,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001252,PROD_LIVE,CUST_106,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001253,PROD_ENCODE,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001254,PROD_LIVE,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-001255,PROD_OTT,CUST_104,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001256,PROD_ENCODE,CUST_105,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001257,PROD_LIVE,CUST_106,Media-Core,Production,Storage,Valid_Recovered
+TAG-001258,PROD_ENCODE,CUST_101,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001259,PROD_ENCODE,CUST_101,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001260,UNALLOCATED_RECOVERY,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001261,PROD_VOD,CUST_102,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001262,PROD_VOD,CUST_104,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001263,PROD_VOD,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001264,PROD_VOD,CUST_101,Media-Core,Production,Storage,Valid_Recovered
+TAG-001265,PROD_VOD,CUST_102,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001266,PROD_VOD,CUST_101,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001267,PROD_ENCODE,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001268,PROD_LIVE,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001269,PROD_ENCODE,CUST_101,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001270,PROD_OTT,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001271,PROD_ENCODE,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001272,PROD_VOD,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-001273,PROD_OTT,CUST_103,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001274,PROD_VOD,CUST_106,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001275,PROD_LIVE,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001276,PROD_OTT,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001277,PROD_OTT,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001278,PROD_ENCODE,CUST_106,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001279,PROD_LIVE,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001280,PROD_OTT,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001281,PROD_LIVE,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001282,PROD_ENCODE,CUST_103,Media-Core,Production,Storage,Valid_Recovered
+TAG-001283,PROD_LIVE,CUST_105,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001284,PROD_VOD,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001285,PROD_OTT,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001286,PROD_OTT,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001287,PROD_VOD,CUST_105,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001288,PROD_OTT,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001289,PROD_ENCODE,CUST_103,Media-Core,Production,Compute,Valid_Recovered
+TAG-001290,PROD_VOD,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001291,PROD_LIVE,CUST_106,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001292,PROD_OTT,CUST_101,Media-Core,Production,Storage,Valid_Recovered
+TAG-001293,PROD_OTT,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001294,PROD_OTT,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001295,UNALLOCATED_RECOVERY,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001296,PROD_LIVE,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001297,PROD_ENCODE,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001298,PROD_ENCODE,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001299,PROD_OTT,CUST_106,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001300,PROD_LIVE,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001301,PROD_ENCODE,CUST_105,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001302,PROD_ENCODE,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001303,PROD_LIVE,CUST_105,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001304,PROD_LIVE,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001305,PROD_VOD,CUST_102,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001306,PROD_OTT,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-001307,PROD_VOD,CUST_105,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001308,PROD_VOD,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001309,PROD_OTT,CUST_104,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001310,PROD_OTT,CUST_101,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001311,PROD_LIVE,CUST_103,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001312,PROD_VOD,CUST_103,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001313,PROD_LIVE,CUST_101,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001314,PROD_OTT,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-001315,PROD_LIVE,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001316,PROD_ENCODE,CUST_105,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001317,PROD_LIVE,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001318,PROD_LIVE,CUST_106,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001319,PROD_VOD,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-001320,PROD_ENCODE,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001321,PROD_LIVE,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001322,PROD_VOD,CUST_105,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001323,PROD_ENCODE,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001324,PROD_LIVE,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001325,PROD_VOD,CUST_106,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001326,PROD_LIVE,CUST_104,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001327,PROD_ENCODE,CUST_104,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001328,PROD_OTT,CUST_104,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001329,PROD_OTT,CUST_103,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001330,UNALLOCATED_RECOVERY,CUST_105,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001331,PROD_OTT,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001332,PROD_VOD,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001333,PROD_OTT,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001334,PROD_LIVE,CUST_102,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001335,PROD_VOD,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001336,PROD_OTT,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-001337,PROD_LIVE,CUST_104,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001338,PROD_LIVE,CUST_104,Media-Core,Development,Storage,Valid_Recovered
+TAG-001339,PROD_OTT,CUST_106,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001340,PROD_VOD,CUST_106,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001341,PROD_ENCODE,CUST_104,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001342,PROD_OTT,CUST_105,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001343,PROD_LIVE,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001344,PROD_LIVE,CUST_105,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001345,PROD_OTT,CUST_104,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001346,PROD_VOD,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001347,PROD_LIVE,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001348,PROD_OTT,CUST_105,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001349,PROD_VOD,CUST_105,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001350,PROD_ENCODE,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001351,PROD_OTT,CUST_103,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001352,PROD_ENCODE,CUST_103,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001353,PROD_VOD,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001354,PROD_LIVE,CUST_103,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001355,PROD_OTT,CUST_103,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001356,PROD_VOD,CUST_105,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001357,PROD_OTT,CUST_101,Media-Core,Development,Storage,Valid_Recovered
+TAG-001358,PROD_ENCODE,CUST_101,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001359,PROD_LIVE,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001360,PROD_LIVE,CUST_105,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001361,PROD_OTT,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-001362,PROD_VOD,CUST_106,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001363,PROD_ENCODE,CUST_101,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001364,PROD_VOD,CUST_102,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001365,UNALLOCATED_RECOVERY,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001366,PROD_OTT,CUST_103,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001367,PROD_ENCODE,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001368,PROD_LIVE,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001369,PROD_OTT,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001370,PROD_ENCODE,CUST_105,Media-Core,Development,Storage,Valid_Recovered
+TAG-001371,PROD_ENCODE,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001372,PROD_ENCODE,CUST_101,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001373,PROD_OTT,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001374,PROD_LIVE,CUST_104,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001375,PROD_VOD,CUST_103,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001376,PROD_ENCODE,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-001377,PROD_OTT,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001378,PROD_OTT,CUST_103,Media-Core,Production,Storage,Valid_Recovered
+TAG-001379,PROD_ENCODE,CUST_105,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001380,PROD_LIVE,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001381,PROD_ENCODE,CUST_106,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001382,PROD_ENCODE,CUST_105,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001383,PROD_ENCODE,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001384,PROD_ENCODE,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-001385,PROD_ENCODE,CUST_106,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001386,PROD_LIVE,CUST_104,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001387,PROD_VOD,CUST_104,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001388,PROD_VOD,CUST_101,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001389,PROD_ENCODE,CUST_105,Media-Core,Production,Storage,Valid_Recovered
+TAG-001390,PROD_ENCODE,CUST_102,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001391,PROD_ENCODE,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001392,PROD_OTT,CUST_106,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001393,PROD_VOD,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001394,PROD_VOD,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001395,PROD_ENCODE,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001396,PROD_OTT,CUST_104,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001397,PROD_OTT,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-001398,PROD_VOD,CUST_102,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001399,PROD_VOD,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001400,UNALLOCATED_RECOVERY,CUST_106,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001401,PROD_ENCODE,CUST_102,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001402,PROD_LIVE,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001403,PROD_LIVE,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001404,PROD_ENCODE,CUST_106,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001405,PROD_VOD,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001406,PROD_VOD,CUST_106,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001407,PROD_LIVE,CUST_105,Media-Core,Development,Storage,Valid_Recovered
+TAG-001408,PROD_VOD,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001409,PROD_ENCODE,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001410,PROD_LIVE,CUST_105,Media-Core,Production,Compute,Valid_Recovered
+TAG-001411,PROD_ENCODE,CUST_103,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001412,PROD_LIVE,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001413,PROD_LIVE,CUST_106,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001414,PROD_ENCODE,CUST_103,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001415,PROD_LIVE,CUST_106,Media-Core,Production,Compute,Valid_Recovered
+TAG-001416,PROD_OTT,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001417,PROD_ENCODE,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001418,PROD_VOD,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001419,PROD_LIVE,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001420,PROD_ENCODE,CUST_105,Media-Core,Development,Compute,Valid_Recovered
+TAG-001421,PROD_LIVE,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001422,PROD_OTT,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001423,PROD_OTT,CUST_102,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001424,PROD_VOD,CUST_103,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001425,PROD_ENCODE,CUST_104,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001426,PROD_VOD,CUST_102,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001427,PROD_OTT,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001428,PROD_LIVE,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001429,PROD_OTT,CUST_106,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001430,PROD_OTT,CUST_105,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001431,PROD_OTT,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001432,PROD_ENCODE,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001433,PROD_ENCODE,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001434,PROD_VOD,CUST_106,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001435,UNALLOCATED_RECOVERY,CUST_106,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001436,PROD_LIVE,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001437,PROD_LIVE,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001438,PROD_OTT,CUST_101,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001439,PROD_ENCODE,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001440,PROD_LIVE,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001441,PROD_VOD,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001442,PROD_LIVE,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001443,PROD_VOD,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001444,PROD_ENCODE,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001445,PROD_ENCODE,CUST_102,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001446,PROD_ENCODE,CUST_102,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001447,PROD_LIVE,CUST_104,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001448,PROD_VOD,CUST_104,Media-Core,Production,Storage,Valid_Recovered
+TAG-001449,PROD_ENCODE,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001450,PROD_LIVE,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001451,PROD_VOD,CUST_103,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001452,PROD_LIVE,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001453,PROD_OTT,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-001454,PROD_ENCODE,CUST_105,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001455,PROD_VOD,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001456,PROD_LIVE,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001457,PROD_LIVE,CUST_104,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001458,PROD_OTT,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001459,PROD_OTT,CUST_105,Media-Core,Development,Compute,Valid_Recovered
+TAG-001460,PROD_VOD,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001461,PROD_ENCODE,CUST_106,Media-Core,Production,Compute,Valid_Recovered
+TAG-001462,PROD_VOD,CUST_105,Media-Core,Production,Storage,Valid_Recovered
+TAG-001463,PROD_LIVE,CUST_105,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001464,PROD_ENCODE,CUST_106,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001465,PROD_ENCODE,CUST_103,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001466,PROD_LIVE,CUST_105,Media-Core,Development,Compute,Valid_Recovered
+TAG-001467,PROD_LIVE,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001468,PROD_VOD,CUST_105,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001469,PROD_LIVE,CUST_101,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001470,UNALLOCATED_RECOVERY,CUST_106,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001471,PROD_VOD,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-001472,PROD_OTT,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001473,PROD_OTT,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001474,PROD_OTT,CUST_105,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001475,PROD_LIVE,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001476,PROD_ENCODE,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001477,PROD_ENCODE,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001478,PROD_OTT,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001479,PROD_LIVE,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001480,PROD_LIVE,CUST_101,Media-Core,Production,Storage,Valid_Recovered
+TAG-001481,PROD_LIVE,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001482,PROD_VOD,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001483,PROD_LIVE,CUST_101,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001484,PROD_OTT,CUST_105,Media-Core,Development,Compute,Valid_Recovered
+TAG-001485,PROD_LIVE,CUST_102,Media-Core,Production,Storage,Valid_Recovered
+TAG-001486,PROD_ENCODE,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001487,PROD_ENCODE,CUST_104,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001488,PROD_LIVE,CUST_106,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001489,PROD_VOD,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001490,PROD_OTT,CUST_101,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001491,PROD_VOD,CUST_102,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001492,PROD_ENCODE,CUST_104,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001493,PROD_LIVE,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001494,PROD_OTT,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001495,PROD_ENCODE,CUST_103,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001496,PROD_OTT,CUST_101,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001497,PROD_ENCODE,CUST_103,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001498,PROD_OTT,CUST_103,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001499,PROD_ENCODE,CUST_106,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001500,PROD_OTT,CUST_101,Media-Core,Production,Storage,Valid_Recovered
+TAG-001501,PROD_ENCODE,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001502,PROD_OTT,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001503,PROD_OTT,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001504,PROD_OTT,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001505,UNALLOCATED_RECOVERY,CUST_105,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001506,PROD_LIVE,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001507,PROD_VOD,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001508,PROD_ENCODE,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001509,PROD_OTT,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001510,PROD_LIVE,CUST_102,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001511,PROD_OTT,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001512,PROD_VOD,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001513,PROD_LIVE,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001514,PROD_LIVE,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001515,PROD_VOD,CUST_104,Media-Core,Development,Compute,Valid_Recovered
+TAG-001516,PROD_ENCODE,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001517,PROD_ENCODE,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001518,PROD_ENCODE,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001519,PROD_OTT,CUST_104,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001520,PROD_VOD,CUST_105,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001521,PROD_LIVE,CUST_102,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001522,PROD_LIVE,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001523,PROD_VOD,CUST_104,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001524,PROD_OTT,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-001525,PROD_OTT,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001526,PROD_LIVE,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001527,PROD_VOD,CUST_101,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001528,PROD_LIVE,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001529,PROD_LIVE,CUST_104,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001530,PROD_OTT,CUST_105,Media-Core,Development,Storage,Valid_Recovered
+TAG-001531,PROD_ENCODE,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001532,PROD_ENCODE,CUST_106,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001533,PROD_LIVE,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001534,PROD_ENCODE,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001535,PROD_OTT,CUST_106,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001536,PROD_ENCODE,CUST_101,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001537,PROD_LIVE,CUST_103,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001538,PROD_OTT,CUST_104,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001539,PROD_LIVE,CUST_101,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001540,UNALLOCATED_RECOVERY,CUST_105,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001541,PROD_VOD,CUST_104,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001542,PROD_VOD,CUST_102,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001543,PROD_VOD,CUST_105,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001544,PROD_VOD,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-001545,PROD_OTT,CUST_106,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001546,PROD_VOD,CUST_101,Media-Core,Development,Storage,Valid_Recovered
+TAG-001547,PROD_LIVE,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001548,PROD_OTT,CUST_103,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001549,PROD_OTT,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001550,PROD_ENCODE,CUST_102,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001551,PROD_VOD,CUST_106,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001552,PROD_ENCODE,CUST_101,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001553,PROD_ENCODE,CUST_106,Media-Core,Production,Compute,Valid_Recovered
+TAG-001554,PROD_ENCODE,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001555,PROD_VOD,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-001556,PROD_OTT,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-001557,PROD_OTT,CUST_103,Media-Core,Production,Storage,Valid_Recovered
+TAG-001558,PROD_ENCODE,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001559,PROD_ENCODE,CUST_102,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001560,PROD_OTT,CUST_101,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001561,PROD_LIVE,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001562,PROD_OTT,CUST_101,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001563,PROD_VOD,CUST_106,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001564,PROD_OTT,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001565,PROD_VOD,CUST_103,Media-Core,Development,Storage,Valid_Recovered
+TAG-001566,PROD_ENCODE,CUST_101,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001567,PROD_LIVE,CUST_106,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001568,PROD_VOD,CUST_103,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001569,PROD_OTT,CUST_106,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001570,PROD_LIVE,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001571,PROD_LIVE,CUST_105,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001572,PROD_LIVE,CUST_101,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001573,PROD_ENCODE,CUST_104,Media-Core,Production,Compute,Valid_Recovered
+TAG-001574,PROD_ENCODE,CUST_105,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001575,UNALLOCATED_RECOVERY,CUST_103,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001576,PROD_LIVE,CUST_106,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001577,PROD_VOD,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001578,PROD_LIVE,CUST_106,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001579,PROD_LIVE,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001580,PROD_LIVE,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001581,PROD_VOD,CUST_106,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001582,PROD_ENCODE,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001583,PROD_OTT,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001584,PROD_LIVE,CUST_101,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001585,PROD_OTT,CUST_105,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001586,PROD_VOD,CUST_105,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001587,PROD_VOD,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001588,PROD_VOD,CUST_103,Media-Core,Production,Compute,Valid_Recovered
+TAG-001589,PROD_ENCODE,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001590,PROD_VOD,CUST_104,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001591,PROD_ENCODE,CUST_105,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001592,PROD_VOD,CUST_104,Media-Core,Development,Storage,Valid_Recovered
+TAG-001593,PROD_VOD,CUST_101,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001594,PROD_ENCODE,CUST_105,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001595,PROD_ENCODE,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001596,PROD_ENCODE,CUST_104,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001597,PROD_LIVE,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001598,PROD_VOD,CUST_103,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001599,PROD_LIVE,CUST_101,Media-Core,Production,Compute,Valid_Recovered
+TAG-001600,PROD_ENCODE,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001601,PROD_LIVE,CUST_105,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001602,PROD_LIVE,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001603,PROD_ENCODE,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001604,PROD_OTT,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001605,PROD_ENCODE,CUST_104,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001606,PROD_VOD,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001607,PROD_VOD,CUST_104,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001608,PROD_VOD,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001609,PROD_ENCODE,CUST_103,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001610,UNALLOCATED_RECOVERY,CUST_101,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001611,PROD_OTT,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001612,PROD_OTT,CUST_102,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001613,PROD_OTT,CUST_106,Media-Core,Production,Compute,Valid_Recovered
+TAG-001614,PROD_OTT,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001615,PROD_OTT,CUST_103,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001616,PROD_ENCODE,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001617,PROD_VOD,CUST_105,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001618,PROD_VOD,CUST_105,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001619,PROD_OTT,CUST_105,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001620,PROD_ENCODE,CUST_101,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001621,PROD_OTT,CUST_101,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001622,PROD_ENCODE,CUST_105,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001623,PROD_VOD,CUST_103,Media-Core,Development,Storage,Valid_Recovered
+TAG-001624,PROD_ENCODE,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001625,PROD_ENCODE,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001626,PROD_ENCODE,CUST_106,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001627,PROD_ENCODE,CUST_105,Media-Core,Development,Storage,Valid_Recovered
+TAG-001628,PROD_ENCODE,CUST_102,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001629,PROD_OTT,CUST_101,Media-Core,Production,Storage,Valid_Recovered
+TAG-001630,PROD_OTT,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001631,PROD_LIVE,CUST_104,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001632,PROD_LIVE,CUST_105,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001633,PROD_VOD,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001634,PROD_LIVE,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-001635,PROD_OTT,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001636,PROD_LIVE,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001637,PROD_OTT,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001638,PROD_VOD,CUST_105,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001639,PROD_ENCODE,CUST_104,Media-Core,Development,Compute,Valid_Recovered
+TAG-001640,PROD_ENCODE,CUST_105,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001641,PROD_VOD,CUST_103,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001642,PROD_VOD,CUST_106,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001643,PROD_OTT,CUST_104,Media-Core,Production,Compute,Valid_Recovered
+TAG-001644,PROD_VOD,CUST_101,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001645,UNALLOCATED_RECOVERY,CUST_105,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001646,PROD_ENCODE,CUST_105,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001647,PROD_OTT,CUST_106,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001648,PROD_LIVE,CUST_106,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001649,PROD_ENCODE,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001650,PROD_ENCODE,CUST_106,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001651,PROD_OTT,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001652,PROD_ENCODE,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001653,PROD_VOD,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001654,PROD_LIVE,CUST_103,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001655,PROD_ENCODE,CUST_104,Media-Core,Development,Compute,Valid_Recovered
+TAG-001656,PROD_ENCODE,CUST_101,Media-Core,Development,Storage,Valid_Recovered
+TAG-001657,PROD_LIVE,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-001658,PROD_LIVE,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001659,PROD_OTT,CUST_101,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001660,PROD_ENCODE,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001661,PROD_ENCODE,CUST_101,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001662,PROD_ENCODE,CUST_105,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001663,PROD_ENCODE,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001664,PROD_OTT,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001665,PROD_VOD,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001666,PROD_VOD,CUST_104,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001667,PROD_LIVE,CUST_102,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001668,PROD_OTT,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001669,PROD_LIVE,CUST_105,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001670,PROD_OTT,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001671,PROD_OTT,CUST_104,Media-Core,Development,Storage,Valid_Recovered
+TAG-001672,PROD_ENCODE,CUST_105,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001673,PROD_LIVE,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001674,PROD_VOD,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001675,PROD_LIVE,CUST_104,Media-Core,Production,Storage,Valid_Recovered
+TAG-001676,PROD_VOD,CUST_106,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001677,PROD_LIVE,CUST_102,Media-Core,Development,Storage,Valid_Recovered
+TAG-001678,PROD_ENCODE,CUST_104,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001679,PROD_VOD,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001680,UNALLOCATED_RECOVERY,CUST_106,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001681,PROD_OTT,CUST_102,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001682,PROD_LIVE,CUST_105,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001683,PROD_VOD,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001684,PROD_VOD,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001685,PROD_VOD,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001686,PROD_ENCODE,CUST_103,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001687,PROD_LIVE,CUST_104,Media-Core,Development,Compute,Valid_Recovered
+TAG-001688,PROD_VOD,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001689,PROD_OTT,CUST_104,Media-Core,Development,Compute,Valid_Recovered
+TAG-001690,PROD_OTT,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001691,PROD_OTT,CUST_101,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001692,PROD_ENCODE,CUST_106,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001693,PROD_ENCODE,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001694,PROD_OTT,CUST_104,Media-Core,Production,Storage,Valid_Recovered
+TAG-001695,PROD_LIVE,CUST_103,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001696,PROD_VOD,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001697,PROD_LIVE,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001698,PROD_VOD,CUST_102,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001699,PROD_OTT,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001700,PROD_ENCODE,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001701,PROD_OTT,CUST_104,Media-Core,Development,Storage,Valid_Recovered
+TAG-001702,PROD_ENCODE,CUST_101,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001703,PROD_ENCODE,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001704,PROD_LIVE,CUST_106,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001705,PROD_VOD,CUST_101,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001706,PROD_VOD,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001707,PROD_OTT,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001708,PROD_OTT,CUST_105,Media-Core,Production,Storage,Valid_Recovered
+TAG-001709,PROD_VOD,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001710,PROD_VOD,CUST_105,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001711,PROD_VOD,CUST_103,Media-Core,Production,Storage,Valid_Recovered
+TAG-001712,PROD_VOD,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001713,PROD_VOD,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001714,PROD_VOD,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001715,UNALLOCATED_RECOVERY,CUST_105,Media-Core,Production,Compute,Valid_Recovered
+TAG-001716,PROD_LIVE,CUST_101,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001717,PROD_ENCODE,CUST_105,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001718,PROD_LIVE,CUST_106,Media-Core,Production,Storage,Valid_Recovered
+TAG-001719,PROD_ENCODE,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001720,PROD_VOD,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001721,PROD_LIVE,CUST_101,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001722,PROD_OTT,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001723,PROD_ENCODE,CUST_101,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001724,PROD_LIVE,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001725,PROD_ENCODE,CUST_106,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001726,PROD_VOD,CUST_104,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001727,PROD_VOD,CUST_102,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001728,PROD_OTT,CUST_101,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001729,PROD_ENCODE,CUST_103,Media-Core,Development,Storage,Valid_Recovered
+TAG-001730,PROD_OTT,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001731,PROD_OTT,CUST_102,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001732,PROD_VOD,CUST_104,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001733,PROD_ENCODE,CUST_104,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001734,PROD_ENCODE,CUST_101,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001735,PROD_ENCODE,CUST_103,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001736,PROD_VOD,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001737,PROD_LIVE,CUST_103,Media-Core,Production,Storage,Valid_Recovered
+TAG-001738,PROD_OTT,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001739,PROD_ENCODE,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001740,PROD_LIVE,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001741,PROD_ENCODE,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001742,PROD_ENCODE,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001743,PROD_LIVE,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001744,PROD_LIVE,CUST_101,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001745,PROD_LIVE,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001746,PROD_OTT,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001747,PROD_LIVE,CUST_105,Media-Core,Production,Storage,Valid_Recovered
+TAG-001748,PROD_ENCODE,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-001749,PROD_OTT,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001750,UNALLOCATED_RECOVERY,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001751,PROD_LIVE,CUST_103,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001752,PROD_OTT,CUST_106,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001753,PROD_LIVE,CUST_102,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001754,PROD_ENCODE,CUST_106,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001755,PROD_VOD,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001756,PROD_OTT,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001757,PROD_VOD,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-001758,PROD_LIVE,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001759,PROD_ENCODE,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001760,PROD_VOD,CUST_106,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001761,PROD_ENCODE,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001762,PROD_OTT,CUST_102,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001763,PROD_LIVE,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001764,PROD_LIVE,CUST_103,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001765,PROD_LIVE,CUST_104,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001766,PROD_ENCODE,CUST_106,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001767,PROD_VOD,CUST_106,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001768,PROD_VOD,CUST_103,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001769,PROD_LIVE,CUST_106,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001770,PROD_LIVE,CUST_105,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001771,PROD_OTT,CUST_102,Media-Core,Development,Storage,Valid_Recovered
+TAG-001772,PROD_OTT,CUST_106,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001773,PROD_OTT,CUST_104,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001774,PROD_LIVE,CUST_106,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001775,PROD_LIVE,CUST_106,Media-Core,Production,Storage,Valid_Recovered
+TAG-001776,PROD_OTT,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001777,PROD_ENCODE,CUST_105,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001778,PROD_ENCODE,CUST_106,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001779,PROD_ENCODE,CUST_102,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001780,PROD_OTT,CUST_105,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001781,PROD_LIVE,CUST_106,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001782,PROD_OTT,CUST_106,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001783,PROD_OTT,CUST_106,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001784,PROD_OTT,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001785,UNALLOCATED_RECOVERY,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001786,PROD_ENCODE,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001787,PROD_ENCODE,CUST_105,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001788,PROD_LIVE,CUST_102,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001789,PROD_VOD,CUST_101,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001790,PROD_OTT,CUST_102,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001791,PROD_VOD,CUST_104,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001792,PROD_OTT,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001793,PROD_OTT,CUST_105,Media-Core,Development,Storage,Valid_Recovered
+TAG-001794,PROD_VOD,CUST_106,Media-Core,Production,Compute,Valid_Recovered
+TAG-001795,PROD_OTT,CUST_106,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001796,PROD_OTT,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001797,PROD_OTT,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001798,PROD_LIVE,CUST_105,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001799,PROD_OTT,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001800,PROD_ENCODE,CUST_102,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001801,PROD_LIVE,CUST_103,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001802,PROD_LIVE,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001803,PROD_ENCODE,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001804,PROD_LIVE,CUST_103,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001805,PROD_ENCODE,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001806,PROD_VOD,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001807,PROD_VOD,CUST_103,Media-Core,Development,Storage,Valid_Recovered
+TAG-001808,PROD_VOD,CUST_106,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001809,PROD_VOD,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-001810,PROD_ENCODE,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001811,PROD_OTT,CUST_104,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001812,PROD_VOD,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001813,PROD_ENCODE,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001814,PROD_LIVE,CUST_103,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001815,PROD_OTT,CUST_106,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001816,PROD_ENCODE,CUST_106,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001817,PROD_OTT,CUST_106,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001818,PROD_VOD,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-001819,PROD_LIVE,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001820,UNALLOCATED_RECOVERY,CUST_106,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001821,PROD_ENCODE,CUST_101,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001822,PROD_ENCODE,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001823,PROD_ENCODE,CUST_102,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001824,PROD_OTT,CUST_103,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001825,PROD_OTT,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001826,PROD_LIVE,CUST_101,Media-Core,Development,Compute,Valid_Recovered
+TAG-001827,PROD_ENCODE,CUST_102,Media-Core,Production,Storage,Valid_Recovered
+TAG-001828,PROD_VOD,CUST_104,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001829,PROD_ENCODE,CUST_106,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001830,PROD_VOD,CUST_101,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001831,PROD_ENCODE,CUST_106,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001832,PROD_LIVE,CUST_104,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001833,PROD_ENCODE,CUST_104,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001834,PROD_VOD,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001835,PROD_VOD,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001836,PROD_ENCODE,CUST_105,Media-Core,Development,Storage,Valid_Recovered
+TAG-001837,PROD_LIVE,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001838,PROD_LIVE,CUST_105,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001839,PROD_VOD,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001840,PROD_LIVE,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001841,PROD_LIVE,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001842,PROD_OTT,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001843,PROD_VOD,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001844,PROD_OTT,CUST_102,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001845,PROD_OTT,CUST_104,Media-Core,Development,Storage,Valid_Recovered
+TAG-001846,PROD_OTT,CUST_103,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001847,PROD_OTT,CUST_103,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001848,PROD_ENCODE,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-001849,PROD_VOD,CUST_106,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001850,PROD_LIVE,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001851,PROD_LIVE,CUST_105,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001852,PROD_OTT,CUST_106,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001853,PROD_ENCODE,CUST_103,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001854,PROD_OTT,CUST_106,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001855,UNALLOCATED_RECOVERY,CUST_106,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001856,PROD_ENCODE,CUST_106,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001857,PROD_VOD,CUST_101,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001858,PROD_VOD,CUST_105,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001859,PROD_OTT,CUST_103,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001860,PROD_VOD,CUST_106,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001861,PROD_VOD,CUST_101,Media-Core,Development,Storage,Valid_Recovered
+TAG-001862,PROD_ENCODE,CUST_103,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001863,PROD_VOD,CUST_105,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001864,PROD_ENCODE,CUST_104,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001865,PROD_OTT,CUST_104,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001866,PROD_LIVE,CUST_103,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001867,PROD_ENCODE,CUST_102,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001868,PROD_LIVE,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001869,PROD_VOD,CUST_105,Media-Core,Development,Compute,Valid_Recovered
+TAG-001870,PROD_LIVE,CUST_102,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001871,PROD_ENCODE,CUST_102,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001872,PROD_OTT,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-001873,PROD_OTT,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-001874,PROD_LIVE,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001875,PROD_ENCODE,CUST_102,Media-Core,Development,Storage,Valid_Recovered
+TAG-001876,PROD_ENCODE,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001877,PROD_VOD,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001878,PROD_VOD,CUST_104,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001879,PROD_LIVE,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001880,PROD_ENCODE,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001881,PROD_OTT,CUST_106,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001882,PROD_LIVE,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001883,PROD_ENCODE,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001884,PROD_OTT,CUST_102,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001885,PROD_ENCODE,CUST_104,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001886,PROD_ENCODE,CUST_106,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001887,PROD_LIVE,CUST_105,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001888,PROD_OTT,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001889,PROD_ENCODE,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001890,UNALLOCATED_RECOVERY,CUST_102,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001891,PROD_VOD,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001892,PROD_OTT,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-001893,PROD_ENCODE,CUST_103,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001894,PROD_OTT,CUST_106,Media-Core,Production,Storage,Valid_Recovered
+TAG-001895,PROD_OTT,CUST_102,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001896,PROD_ENCODE,CUST_101,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001897,PROD_LIVE,CUST_102,Media-Core,Development,Storage,Valid_Recovered
+TAG-001898,PROD_LIVE,CUST_102,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001899,PROD_OTT,CUST_105,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001900,PROD_VOD,CUST_105,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001901,PROD_LIVE,CUST_106,Media-Core,Development,Compute,Valid_Recovered
+TAG-001902,PROD_ENCODE,CUST_105,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001903,PROD_ENCODE,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001904,PROD_ENCODE,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001905,PROD_ENCODE,CUST_104,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001906,PROD_ENCODE,CUST_104,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001907,PROD_ENCODE,CUST_105,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001908,PROD_VOD,CUST_106,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001909,PROD_VOD,CUST_104,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001910,PROD_VOD,CUST_106,Media-Core,Production,Storage,Valid_Recovered
+TAG-001911,PROD_LIVE,CUST_106,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001912,PROD_OTT,CUST_102,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001913,PROD_OTT,CUST_104,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001914,PROD_OTT,CUST_106,Media-Core,Development,Storage,Valid_Recovered
+TAG-001915,PROD_ENCODE,CUST_101,Media-Core,Development,Storage,Valid_Recovered
+TAG-001916,PROD_OTT,CUST_102,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001917,PROD_OTT,CUST_105,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001918,PROD_VOD,CUST_105,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001919,PROD_OTT,CUST_106,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001920,PROD_VOD,CUST_103,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001921,PROD_ENCODE,CUST_102,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001922,PROD_OTT,CUST_101,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001923,PROD_VOD,CUST_102,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001924,PROD_ENCODE,CUST_104,Streaming-Team,Production,Compute,Valid_Recovered
+TAG-001925,UNALLOCATED_RECOVERY,CUST_103,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001926,PROD_ENCODE,CUST_101,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001927,PROD_OTT,CUST_102,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001928,PROD_OTT,CUST_106,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001929,PROD_LIVE,CUST_104,Media-Core,Development,Compute,Valid_Recovered
+TAG-001930,PROD_VOD,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001931,PROD_OTT,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001932,PROD_OTT,CUST_106,Streaming-Team,Development,Data Transfer,Valid_Recovered
+TAG-001933,PROD_VOD,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001934,PROD_ENCODE,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001935,PROD_ENCODE,CUST_104,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001936,PROD_OTT,CUST_104,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001937,PROD_VOD,CUST_101,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001938,PROD_LIVE,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-001939,PROD_LIVE,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001940,PROD_OTT,CUST_103,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001941,PROD_OTT,CUST_104,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001942,PROD_LIVE,CUST_101,Media-Core,Production,Storage,Valid_Recovered
+TAG-001943,PROD_VOD,CUST_101,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001944,PROD_VOD,CUST_104,Encoding-Team,Production,Compute,Valid_Recovered
+TAG-001945,PROD_ENCODE,CUST_104,Media-Core,Production,Storage,Valid_Recovered
+TAG-001946,PROD_VOD,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001947,PROD_ENCODE,CUST_104,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001948,PROD_OTT,CUST_101,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001949,PROD_OTT,CUST_101,Media-Core,Production,Storage,Valid_Recovered
+TAG-001950,PROD_OTT,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001951,PROD_LIVE,CUST_102,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001952,PROD_VOD,CUST_106,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001953,PROD_OTT,CUST_105,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001954,PROD_OTT,CUST_106,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001955,PROD_ENCODE,CUST_102,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001956,PROD_ENCODE,CUST_102,Streaming-Team,Development,Storage,Valid_Recovered
+TAG-001957,PROD_OTT,CUST_105,Media-Core,Development,Compute,Valid_Recovered
+TAG-001958,PROD_LIVE,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001959,PROD_LIVE,CUST_103,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001960,UNALLOCATED_RECOVERY,CUST_106,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001961,PROD_VOD,CUST_103,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-001962,PROD_VOD,CUST_103,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001963,PROD_LIVE,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-001964,PROD_ENCODE,CUST_101,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001965,PROD_ENCODE,CUST_102,Media-Core,Development,Compute,Valid_Recovered
+TAG-001966,PROD_VOD,CUST_104,Platform-Team,Production,Compute,Valid_Recovered
+TAG-001967,PROD_VOD,CUST_102,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001968,PROD_VOD,CUST_106,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001969,PROD_VOD,CUST_101,Platform-Team,Development,Storage,Valid_Recovered
+TAG-001970,PROD_OTT,CUST_104,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001971,PROD_ENCODE,CUST_102,Media-Core,Production,Storage,Valid_Recovered
+TAG-001972,PROD_LIVE,CUST_104,Media-Core,Production,Storage,Valid_Recovered
+TAG-001973,PROD_ENCODE,CUST_105,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001974,PROD_LIVE,CUST_105,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001975,PROD_OTT,CUST_104,Encoding-Team,Development,Compute,Valid_Recovered
+TAG-001976,PROD_VOD,CUST_106,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001977,PROD_LIVE,CUST_106,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001978,PROD_ENCODE,CUST_101,Platform-Team,Production,Storage,Valid_Recovered
+TAG-001979,PROD_LIVE,CUST_104,Media-Core,Development,Storage,Valid_Recovered
+TAG-001980,PROD_ENCODE,CUST_101,Platform-Team,Development,Compute,Valid_Recovered
+TAG-001981,PROD_OTT,CUST_103,Media-Core,Development,Compute,Valid_Recovered
+TAG-001982,PROD_ENCODE,CUST_103,Encoding-Team,Development,Data Transfer,Valid_Recovered
+TAG-001983,PROD_LIVE,CUST_105,Platform-Team,Development,Data Transfer,Valid_Recovered
+TAG-001984,PROD_OTT,CUST_103,Media-Core,Production,Compute,Valid_Recovered
+TAG-001985,PROD_ENCODE,CUST_105,Media-Core,Development,Data Transfer,Valid_Recovered
+TAG-001986,PROD_ENCODE,CUST_104,Streaming-Team,Production,Data Transfer,Valid_Recovered
+TAG-001987,PROD_LIVE,CUST_105,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001988,PROD_ENCODE,CUST_103,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001989,PROD_ENCODE,CUST_106,Platform-Team,Production,Data Transfer,Valid_Recovered
+TAG-001990,PROD_ENCODE,CUST_103,Media-Core,Development,Storage,Valid_Recovered
+TAG-001991,PROD_OTT,CUST_103,Media-Core,Production,Storage,Valid_Recovered
+TAG-001992,PROD_VOD,CUST_102,Encoding-Team,Production,Storage,Valid_Recovered
+TAG-001993,PROD_LIVE,CUST_103,Encoding-Team,Development,Storage,Valid_Recovered
+TAG-001994,PROD_VOD,CUST_105,Streaming-Team,Production,Storage,Valid_Recovered
+TAG-001995,UNALLOCATED_RECOVERY,CUST_101,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001996,PROD_OTT,CUST_103,Media-Core,Production,Data Transfer,Valid_Recovered
+TAG-001997,PROD_OTT,CUST_103,Streaming-Team,Development,Compute,Valid_Recovered
+TAG-001998,PROD_ENCODE,CUST_103,Media-Core,Development,Storage,Valid_Recovered
+TAG-001999,PROD_VOD,CUST_105,Encoding-Team,Production,Data Transfer,Valid_Recovered
+TAG-002000,PROD_VOD,CUST_104,Streaming-Team,Development,Compute,Valid_Recovered

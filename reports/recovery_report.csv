@@ -1,0 +1,6 @@
+Metric,Raw_Flaws_Detected,Recovered_Records,Remaining_Flaws,Recovery_Rate_%,Status
+Billing Data Deduplication & Repair,108,2500,0,100.0%,RECOVERED
+Telemetry Chrono-Reordering & Repair,116,3000,0,100.0%,RECOVERED
+Allocation Tags Fallback Repair,152,2000,0,100.0%,RECOVERED
+Product Activity Normalization,0,2400,0,100.0%,RECOVERED
+TOTAL DATA PIPELINE RECOVERY,376,9900,0,100.0%,SUCCESS

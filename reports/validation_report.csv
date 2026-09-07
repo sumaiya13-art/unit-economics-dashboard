@@ -1,0 +1,6 @@
+Metric,Count,Percentage,Status
+Missing Values,107,1.07%,WARNING
+Duplicate Records,55,0.55%,WARNING
+Invalid Values,91,0.91%,WARNING
+Delayed Records,37,0.37%,WARNING
+Out-of-Order Records,29,0.29%,WARNING
