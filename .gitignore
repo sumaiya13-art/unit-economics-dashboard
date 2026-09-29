@@ -4,18 +4,22 @@ __pycache__/
 *$py.class
 .pytest_cache/
 
-# Environments
+# Virtual Environments
 venv/
 .venv/
 env/
 ENV/
 
-# IDE & OS settings
+# IDE & Editor settings
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# OS System Files
 .DS_Store
 Thumbs.db
 
-# Scratch and temporary files
+# Temporary Data Files
 scratch/
 *.tmp
