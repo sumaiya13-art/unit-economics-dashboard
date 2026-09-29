@@ -1,0 +1,7 @@
+Evaluation Metric,Strategy A: Tag-Based (Baseline),Strategy B: Telemetry-Weighted (Target),Measured Result & Improvement
+Total Cloud Cost ($),"$510,468.50","$510,468.50",$0.00 (Same Benchmark Dataset)
+Allocated Cloud Cost ($),"$503,722.74","$510,468.50","+$6,745.76 Recovered Spend"
+Unallocated Cloud Cost ($),"$6,745.76",$0.00,"-$6,745.76 Unallocated Reduction"
+Allocation Coverage (%),98.68%,100.00%,+1.32% Coverage Gain
+Shared Infrastructure Handling,Manual Tagging (Fails on Shared Nodes),Dynamic Telemetry Weighting,100% Proportional Attribution
+Data Flaw Resilience,Low (Tag Gaps = High Unallocated Cost),High (Reconciles Telemetry Flaws),High Operational Resilience
