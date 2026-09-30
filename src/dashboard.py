@@ -1,42 +1,64 @@
+"""
+Interactive Web Dashboard Generator & Local Server Module.
+
+This module reads pipeline data outputs (cleaned billing, telemetry, product activity,
+validation reports, and strategy benchmarks) to generate a single-page responsive
+HTML/CSS/JS web UI dashboard ('dashboard.html').
+
+It also includes a built-in lightweight Python HTTP web server hosted on localhost:8000.
+
+Routes Served:
+- GET /              -> Serves dashboard.html
+- GET /dashboard     -> Serves dashboard.html
+- GET /dashboard.html-> Serves dashboard.html
+
+Author: Unit Economics Engineering Team
+"""
+
 import os
 import json
 import http.server
 import socketserver
 import pandas as pd
 
+
 def generate_dashboard_html():
-    """Read pipeline outputs and generate self-contained interactive dashboard.html."""
+    """
+    Read pipeline outputs and generate self-contained interactive dashboard.html.
+
+    Includes role-based views (Executive, Product Manager, FinOps, Data Health)
+    and live data freshness status indicators.
+    """
     cleaned_billing = pd.read_csv("data/cleaned/billing.csv")
     cleaned_telemetry = pd.read_csv("data/cleaned/usage_telemetry.csv")
     activity_df = pd.read_csv("data/cleaned/product_activity.csv")
     validation_df = pd.read_csv("reports/validation_report.csv")
     recovery_df = pd.read_csv("reports/recovery_report.csv")
-    
-    # Load experiment if present
+
     experiment_df = pd.read_csv("reports/experiment_results.csv") if os.path.exists("reports/experiment_results.csv") else None
-    
-    # Calculate KPIs
+
+    # Calculate Core KPIs
     total_cost = cleaned_billing["total_cost"].sum()
     allocatable_cost = cleaned_billing[cleaned_billing["product_id"] != "UNALLOCATED_RECOVERY"]["total_cost"].sum()
     unallocated_cost = total_cost - allocatable_cost
     coverage_pct = (allocatable_cost / total_cost) * 100 if total_cost > 0 else 0
-    
+
     total_videos = activity_df["videos_processed"].sum()
     total_hours = activity_df["processing_hours"].sum()
     total_revenue = activity_df["revenue"].sum()
-    
+
     cost_per_video = allocatable_cost / total_videos if total_videos > 0 else 0
     cost_per_hour = allocatable_cost / total_hours if total_hours > 0 else 0
     gross_margin = total_revenue - allocatable_cost
     margin_pct = (gross_margin / total_revenue) * 100 if total_revenue > 0 else 0
-    
-    # Product Allocation Summary
+
+    # Product Level Usage Share
     valid_telemetry = cleaned_telemetry[cleaned_telemetry["product_id"].notnull()]
     tot_min = valid_telemetry["processing_minutes"].sum()
     prod_usage = valid_telemetry.groupby("product_id")["processing_minutes"].sum().reset_index()
     prod_usage["share"] = prod_usage["processing_minutes"] / tot_min
     prod_usage["cost"] = prod_usage["share"] * allocatable_cost
-    
+
     # HTML Template
     html_content = f"""<!DOCTYPE html>
 <html lang="en">
@@ -241,7 +263,7 @@ def generate_dashboard_html():
                     <td>${r['cost']:,.2f}</td>
                     <td>${unit_c:.2f} / video</td>
                 </tr>"""
-                
+
     html_content += f"""
             </tbody>
         </table>
@@ -322,17 +344,19 @@ def generate_dashboard_html():
         f.write(html_content)
     print("Generated interactive single-page dashboard.html")
 
+
 def serve_dashboard(port=8000):
-    """Start standard Python HTTP web server to host dashboard.html."""
+    """Start standard Python HTTP web server to host dashboard.html on localhost:port."""
     class Handler(http.server.SimpleHTTPRequestHandler):
         def do_GET(self):
             if self.path == "/" or self.path == "/dashboard":
                 self.path = "/dashboard.html"
             return super().do_GET()
-            
+
     print(f"Starting local dashboard web server on http://localhost:{port}")
     httpd = socketserver.TCPServer(("", port), Handler)
     return httpd
+
 
 if __name__ == "__main__":
     generate_dashboard_html()
